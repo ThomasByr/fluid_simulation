@@ -17,7 +17,7 @@ rectangle([d, d, d, 1.], sq, c.transform, g);
 is costing me a hundred frames on my potato laptop. I so have about 20 to 30 and I manage to double it when I switch device. But why is drawing a thousand rectangles so slow ?
 
 ## Dependencies
-The project will need RobotoMono Thin font which can be found inside of the assets folder alongside with its usage license. Inside of [Cargo.toml](Cargo.toml) are soft dependencies wich will be automatically met by cargo when first building the project. So there is **Piston Window** used for the rendering and based on OpenGL and Glutin Window, **noise** which implements 2 to 4 dimentionnal Perlin Noise, **rand** for standard randomness, **fps counter** which is a small structure which coounts frames and **find colder** to find folder the font is located in. The whole thing runs with Rust 2018.
+The project will need RobotoMono Thin font which can be found inside of the assets folder alongside with its usage license. Inside of [Cargo.toml](Cargo.toml) are soft dependencies wich will be automatically met by cargo when first building the project. So there is **Piston Window** used for the rendering and based on OpenGL and Glutin Window, **noise** which implements 2 to 4 dimentionnal Perlin Noise, **rand** for standard randomness, **fps counter** which is a small structure which counts frames and **find colder** to find folder the font is located in. The whole thing runs with Rust 2018.
 
 ## Changelog
 * v0.1.0
